@@ -1,0 +1,15 @@
+.icones {
+    display: flex;
+    width: 40px;
+    height: 40px;
+ 
+}
+
+.icones-lista{
+    display: flex;
+    cursor:pointer;
+    list-style: none;
+    margin-right: 15px;
+    /* height: 100%; */
+    width: 50px;
+}
