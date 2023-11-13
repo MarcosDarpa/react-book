@@ -1,18 +1,20 @@
 import './App.css'
-import IconesHeader from './components/iconesHeader'
-import OpcoesHeader from './components/opcoesHeader'
 import Logo from './components/Logo'
 
 
-function App() { //DECLARANDO UMA FUNÇÃO
-  return ( // CHAMANDO ESTA FUNÇÃO E CONTÉM A ESTRUTURA JSX
-    <div className='App'> 
+function App(){
+  return(
+    <div className='App'>
       <header className='App-header'>
-        <Logo/>
-        <OpcoesHeader/>
-        <IconesHeader/>
+      <Logo/>  
+      <ul className='opcoes'>
+        <li className='opcoes-lista'><p>CATEGORIAS</p></li>
+        <li className='opcoes-lista'><p>MINHA ESTANTE</p></li>
+        <li className='opcoes-lista'><p>FAVORITOS</p></li>
+      </ul>
       </header>
     </div>
-  );
+  )
 }
-export default App;
+
+export default App

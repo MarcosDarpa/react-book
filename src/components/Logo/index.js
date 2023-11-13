@@ -1,5 +1,4 @@
-// import logo from "../../img/logo.svg";
-import logo from '../../img/IBR Timeline.png'
+import logo from '../../img/logo.svg'
 import './style.css'
 
 
@@ -9,12 +8,12 @@ function Logo() {
     <div className="logo">
       <img src={logo} alt="logo" className="logo-img"></img>
       <p className="titulo">
-      {/* <strong>React</strong> Book */}
+      <strong>React</strong> Book
       </p>
     </div>
   );
 }
-export default Logo;
+export default Logo
 
 
 
