@@ -1,10 +1,10 @@
-import youtube from "../../img/youtube-logo-svgrepo-com.svg";
+import perfil from "../../img/perfil.svg";
 import sacola from "../../img/sacola.svg";
 import "./style.css";
 
-const icones = [youtube, sacola];
+const icones = [perfil, sacola];
 
-function iconesHeader() {
+function IconesHeader() {
   return (
     <ul className="icones">
       {icones.map((icones) => (
@@ -15,10 +15,5 @@ function iconesHeader() {
     </ul>
   );
 }
-function Youtube(){
-  return(
-    <a href="https://www.youtube.com/@IgrejaBatistaRedencao">
-      <Youtube icon={youtube}/>
-  )
-}
-export default iconesHeader;
+
+export default IconesHeader;

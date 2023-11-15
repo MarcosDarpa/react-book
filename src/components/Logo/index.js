@@ -8,7 +8,7 @@ function Logo() {
     <div className="logo">
       <img src={logo} alt="logo" className="logo-img"></img>
       <p className="titulo">
-      <strong>React</strong> Book
+      <strong>React</strong>Book
       </p>
     </div>
   );

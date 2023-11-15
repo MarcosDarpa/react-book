@@ -1,16 +1,16 @@
 import './style.css'
 
-const listaHeader =['CATEGORIAS', 'FAVORITOS', 'MINHA ESTANTE',] // É UMA ARRAY
+const textoOpcoes =['CATEGORIAS', 'FAVORITOS', 'MINHA ESTANTE'] // É UMA ARRAY
 
-function opcoesHeader() {
+function OpcoesHeader() {
   return (
-    <ul className="lista-header">
-      {listaHeader.map((texto) => (
-        <li className="lista">
+    <ul className="opcoes">
+      {textoOpcoes.map((texto) => (
+        <li className="opcao">
           <p>{texto}</p>
         </li>
       ))}
     </ul>
-  );
+  )
 }
-export default opcoesHeader;
+export default OpcoesHeader;
