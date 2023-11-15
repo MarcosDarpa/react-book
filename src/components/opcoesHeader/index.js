@@ -1,8 +1,8 @@
-import './style.css'
+import "./style.css";
 
-const textoOpcoes =['CATEGORIAS', 'FAVORITOS', 'MINHA ESTANTE'] // É UMA ARRAY
+const textoOpcoes = ["CATEGORIAS", "FAVORITOS", "MINHA ESTANTE"]; // É UMA ARRAY
 
-function OpcoesHeader() {
+function opcoesHeader() {
   return (
     <ul className="opcoes">
       {textoOpcoes.map((texto) => (
@@ -11,6 +11,6 @@ function OpcoesHeader() {
         </li>
       ))}
     </ul>
-  )
+  );
 }
-export default OpcoesHeader;
+export default opcoesHeader;

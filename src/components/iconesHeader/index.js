@@ -4,7 +4,7 @@ import "./style.css";
 
 const icones = [perfil, sacola];
 
-function IconesHeader() {
+function iconesHeader() {
   return (
     <ul className="icones">
       {icones.map((icones) => (
@@ -16,4 +16,4 @@ function IconesHeader() {
   );
 }
 
-export default IconesHeader;
+export default iconesHeader;
